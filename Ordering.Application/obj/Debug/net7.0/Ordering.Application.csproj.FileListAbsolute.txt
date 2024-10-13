@@ -1,0 +1,15 @@
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.csproj.AssemblyReference.cache
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.AssemblyInfoInputs.cache
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.AssemblyInfo.cs
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.csproj.CoreCompileInputs.cache
+/Users/macbook/Ecommerce/Ordering.Application/bin/Debug/net7.0/Ordering.Application.deps.json
+/Users/macbook/Ecommerce/Ordering.Application/bin/Debug/net7.0/Ordering.Application.dll
+/Users/macbook/Ecommerce/Ordering.Application/bin/Debug/net7.0/Ordering.Application.pdb
+/Users/macbook/Ecommerce/Ordering.Application/bin/Debug/net7.0/Ordering.Core.dll
+/Users/macbook/Ecommerce/Ordering.Application/bin/Debug/net7.0/Ordering.Core.pdb
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.csproj.CopyComplete
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.dll
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/refint/Ordering.Application.dll
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/Ordering.Application.pdb
+/Users/macbook/Ecommerce/Ordering.Application/obj/Debug/net7.0/ref/Ordering.Application.dll

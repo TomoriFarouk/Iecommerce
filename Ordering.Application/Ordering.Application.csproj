@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="MediatR" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Response\" />
+    <None Remove="Command\" />
+    <None Remove="Queries\" />
+    <None Remove="Mapper\" />
+    <None Remove="Handlers\" />
+    <None Remove="Handlers\CommandHandlers\" />
+    <None Remove="Handlers\QueryHandlers\" />
+    <None Remove="Common\" />
+    <None Remove="Common\Interface\" />
+    <None Remove="Common\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Response\" />
+    <Folder Include="Command\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Handlers\CommandHandlers\" />
+    <Folder Include="Handlers\QueryHandlers\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Interface\" />
+    <Folder Include="Common\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ordering.Core\Ordering.Core.csproj" />
+  </ItemGroup>
+</Project>

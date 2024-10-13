@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Entities\Base\" />
+    <None Remove="Repositories\Command\" />
+    <None Remove="Repositories\Query\" />
+    <None Remove="Repositories\Command\Base\" />
+    <None Remove="Repositories\Query\Base\" />
+    <None Remove="Interface\" />
+    <None Remove="Entities\Identity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\Base\" />
+    <Folder Include="Repositories\Command\" />
+    <Folder Include="Repositories\Query\" />
+    <Folder Include="Repositories\Command\Base\" />
+    <Folder Include="Repositories\Query\Base\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Entities\Identity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.0" />
+
+  </ItemGroup>
+</Project>

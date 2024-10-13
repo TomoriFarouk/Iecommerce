@@ -1,0 +1,101 @@
+﻿<Properties StartupConfiguration="{3AF4D57A-CD27-46DA-958E-F4711D9ABC41}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../LibraryManagement/Src/LibraryManagement.API/bin/Debug/net7.0/logs/logfile.log">
+    <Files>
+      <File FileName="Ordering.Core/Entities/Customer.cs" />
+      <File FileName="Ordering.Infrastructure/Data/DbConnector.cs" />
+      <File FileName="Ordering.Infrastructure/Repository/Command/Base/CommandRepository.cs" />
+      <File FileName="Ordering.Infrastructure/Repository/Command/CustomerCommandRepository.cs" />
+      <File FileName="Ordering.Infrastructure/Repository/Query/Base/QueryRepository.cs" />
+      <File FileName="Ordering.Infrastructure/Repository/Query/CustomerQueryRepository.cs" />
+      <File FileName="Ordering.Application/Response/CustomerResponse.cs" />
+      <File FileName="Ordering.Application/Command/CreateCustomerCommand.cs" />
+      <File FileName="Ordering.Application/Command/EditCustomerCommand.cs" />
+      <File FileName="Ordering.Application/Command/DeleteCustomerCommand.cs" />
+      <File FileName="Ordering.Application/Queries/GetAllCustomerQuery.cs" />
+      <File FileName="Ordering.Application/Queries/GetCustomerByEmailQuery.cs" />
+      <File FileName="Ordering.Application/Mapper/CustomerMapper.cs" />
+      <File FileName="Ordering.Application/Mapper/OrderingMapperProfile.cs" />
+      <File FileName="Ordering.Application/Handlers/CommandHandlers/CreateCustomerHandlers.cs" />
+      <File FileName="Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" />
+      <File FileName="Ordering.Application/Handlers/CommandHandlers/DeleteCustomerHandlers.cs" />
+      <File FileName="Ordering.Application/Handlers/QueryHandlers/GetAllCustomerHandler.cs" />
+      <File FileName="Ordering.Application/Handlers/QueryHandlers/GetCustomerByEmailHandler.cs" />
+      <File FileName="Ordering.Application/Handlers/QueryHandlers/GetCustomerByIdHandlers.cs" />
+      <File FileName="Ordering.API/appsettings.json" />
+      <File FileName="Ordering.API/Program.cs" Line="22" Column="6" />
+      <File FileName="Ordering.API/WeatherForecast.cs" />
+      <File FileName="Ordering.API/Startup.cs" />
+      <File FileName="Ordering.API/Properties/launchSettings.json" />
+      <File FileName="Ordering.API/Controllers/CustomerController.cs" />
+      <File FileName="Ordering.Core/Interface/Command/ICustomerCommandRepository.cs" />
+      <File FileName="Ordering.Core/Interface/Query/ICustomerQueryRepository.cs" />
+      <File FileName="Ordering.Core/Interface/Command/Base/ICommandRepository.cs" />
+      <File FileName="Ordering.Application/Queries/GetCustomerByIdQuery.cs" />
+      <File FileName="Ordering.Infrastructure/Data/ApplicationDbContext.cs" />
+      <File FileName="Ordering.Infrastructure/Data/Identity/ApplicationUser.cs" />
+      <File FileName="Ordering.Infrastructure/Services/IdentityService.cs" />
+      <File FileName="Ordering.Infrastructure/Services/TokenGenerator.cs" />
+      <File FileName="Ordering.Application/Common/Interface/ITokenGenerator.cs" />
+      <File FileName="Ordering.Application/Response/AuthResponse.cs" />
+      <File FileName="Ordering.Application/Handlers/CommandHandlers/AuthCommandHandler.cs" />
+      <File FileName="Ordering.Application/Common/Exceptions/BadRequestException.cs" />
+      <File FileName="Ordering.Application/Common/Exceptions/ForbiddenAccessRequest.cs" />
+      <File FileName="Ordering.Application/Common/Exceptions/ValidationException.cs" />
+      <File FileName="Ordering.API/Controllers/AuthController.cs" />
+      <File FileName="Ordering.Application/Common/Interface/IIdentityService.cs" />
+      <File FileName="Ordering.API/Ordering.API.csproj" />
+      <File FileName="Ordering.Infrastructure/Ordering.Infrastructure/obj/Ordering.Infrastructure.csproj.EntityFrameworkCore.targets" />
+      <File FileName="Ordering.Application/Command/AuthCommand.cs" />
+      <File FileName="Ordering.Application/Command/RegisterAuthCommand.cs" />
+      <File FileName="Ordering.Core/Entities/Identity/ApplicationUser.cs" />
+      <File FileName="Ordering.Infrastructure/Ordering.Infrastructure.csproj" />
+      <File FileName="Ordering.Core/Ordering.Core.csproj" />
+      <File FileName="Ordering.Core/Entities/Base/BaseEntity.cs" />
+      <File FileName="Ordering.Application/Ordering.Application.csproj" />
+      <File FileName="Ordering.Application/Common/Exceptions/NotFoundException.cs" />
+      <File FileName="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" />
+      <File FileName="Ordering.Core/Interface/Query/Base/IQueryRepository.cs" />
+      <File FileName="Ordering.API/orderingIdentity.db-wal" />
+      <File FileName="../LibraryManagement/Src/LibraryManagement.API/bin/Debug/net7.0/logs/logfile.log" Line="1054" Column="269" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ecommerce" expanded="True">
+            <Node name="Ordering.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Ordering.Application" expanded="True">
+              <Node name="Handlers" expanded="True" />
+            </Node>
+            <Node name="Ordering.Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="Ordering.Infrastructure" expanded="True">
+              <Node name="Data" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Ordering.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.API/Controllers/CustomerController.cs" relfile="Ordering.API/Controllers/CustomerController.cs" line="59" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" relfile="Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" line="41" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" relfile="Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" line="39" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" relfile="Ordering.Application/Handlers/CommandHandlers/EditCustomerHandlers.cs" line="40" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="39" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="30" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="27" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="26" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="25" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="32" column="1" />
+      <Breakpoint file="/Users/macbook/Ecommerce/Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" relfile="Ordering.Application/Handlers/CommandHandlers/RegisterAuthCommandHandler.cs" line="41" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
